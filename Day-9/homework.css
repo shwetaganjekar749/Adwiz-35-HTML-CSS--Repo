@@ -1,0 +1,60 @@
+header{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    font-size: x-large;
+
+}
+body{
+    margin: 0;
+    padding: 70px;
+
+}
+.container{
+    position: relative;
+    background-color: rgb(220, 223, 222);
+    height: 150px;
+    width: 300px;
+    margin: 30px auto;
+    border: 2px solid black;
+
+}
+.btn{
+    position: absolute;
+    background-color:pink;
+    color: white;
+    top: 50px;
+    left: 100px;
+    padding: 10px 20px;
+    border: none;
+ }
+
+ .div:hover .display-box{
+    display: block;
+ }
+ .div:hover .visibility-box{
+    visibility: visible;
+ }
+ .display-box{
+    display: none;
+    background-color: aquamarine;
+    height: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+
+ }
+.visibility-box{
+    visibility: hidden;
+    background-color: lightcoral;
+    height: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+
+}
