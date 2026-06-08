@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#two {
+  position:static;
+  top: 20px;
+  left: 20px;
+  background: blue;
+}
+#five{
+    background-color:yellow;
+    color: #000;
+    position: fixed;
+}
+
+.outer {
+  width: 500px;
+  height: 300px;
+  overflow: scroll;
+  padding-left: 150px;
+}
